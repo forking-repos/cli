@@ -1,5 +1,39 @@
 # Changelog
 
+## 1.0.0 (2022-04-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **libnpmpublish:** the log option is no longer passed to the updated deps
+
+### Bug Fixes
+
+* added arborist action and updated template-oss ([#4215](https://github.com/forking-repos/cli/issues/4215)) ([aa538df](https://github.com/forking-repos/cli/commit/aa538df4c19f46d2e24e2635d1214176c662fcea))
+* **libnpmpublish:** remove superfluous argument ([#4463](https://github.com/forking-repos/cli/issues/4463)) ([d9b6378](https://github.com/forking-repos/cli/commit/d9b63784dbef50c5b3a7bd62ba5df1aaa45133fc))
+* **logout:** require proper auth.js from npm-registry-fetch ([90c384c](https://github.com/forking-repos/cli/commit/90c384ccccac32c80c481a04c438cbcbea82539c))
+* replace deprecated String.prototype.substr() ([#4667](https://github.com/forking-repos/cli/issues/4667)) ([e3da5df](https://github.com/forking-repos/cli/commit/e3da5df4152fbe547f7871547165328e1bf06262))
+* set proper workspace repo urls in package.json ([#4476](https://github.com/forking-repos/cli/issues/4476)) ([0cfc155](https://github.com/forking-repos/cli/commit/0cfc155db5f11ce23419e440111d99a63bf39754))
+* update readme badges ([#4658](https://github.com/forking-repos/cli/issues/4658)) ([2829cb2](https://github.com/forking-repos/cli/commit/2829cb28a432b5ff7beeeb3bf3e7e2e174c1121d))
+
+
+### Documentation
+
+* standardize changelog heading ([#4510](https://github.com/forking-repos/cli/issues/4510)) ([91f03ee](https://github.com/forking-repos/cli/commit/91f03ee618bc635f9cfbded735fe98bbfa9d643f))
+
+
+### Dependencies
+
+* @npmcli/template-oss@3.2.1 ([aac01b8](https://github.com/forking-repos/cli/commit/aac01b89caf6336a2eb34d696296303cdadd5c08))
+* @npmcli/template-oss@3.2.2 ([#4639](https://github.com/forking-repos/cli/issues/4639)) ([a59fd2c](https://github.com/forking-repos/cli/commit/a59fd2cb863245fce56f96c90ac854e62c5c4d6f))
+* cacache@16.0.1 ([f95396a](https://github.com/forking-repos/cli/commit/f95396a033b75e2a3e9aa83f0b06c527641027a4))
+* libnpmpack@4.0.0 ([8b1d963](https://github.com/forking-repos/cli/commit/8b1d9636ad2374254263d154f2b4ca8ea6416f4c))
+* libnpmpublish@6.0.0 ([67aed05](https://github.com/forking-repos/cli/commit/67aed05429163fc120e05e6fb15f8f3cd9c6ef22))
+* **libnpmpublish:** update to latest major versions of npm deps ([b8f0829](https://github.com/forking-repos/cli/commit/b8f082950667d7f6aee46f13a958c465dd9d68f6))
+* normalize-package-data@4.0.0 ([b2a4942](https://github.com/forking-repos/cli/commit/b2a494283f45a25d1b87bc40bf2d68812871e89c))
+* npm-package-arg@9.0.1 ([9555a5f](https://github.com/forking-repos/cli/commit/9555a5f1d135aa1b8f7374273403efe41e99ee26))
+* npm-registry-fetch@12.0.1 ([1bfc507](https://github.com/forking-repos/cli/commit/1bfc507f2a5afa02f04d4dea2fc6d151d4fef3ac))
+
 ### [6.0.2](https://www.github.com/npm/cli/compare/libnpmpublish-v6.0.1...libnpmpublish-v6.0.2) (2022-03-15)
 
 
