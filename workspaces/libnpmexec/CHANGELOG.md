@@ -1,5 +1,46 @@
 # Changelog
 
+## [4.0.11](https://github.com/forking-repos/cli/compare/libnpmexec-v4.0.10...libnpmexec-v4.0.11) (2022-08-12)
+
+
+### Bug Fixes
+
+* **exec:** workspaces support ([6253d19](https://github.com/forking-repos/cli/commit/6253d1968d8390ea6b16604ff3abb5e6509349c9))
+* fix exec tests and  clean up workspace-location-msg ([3b30af2](https://github.com/forking-repos/cli/commit/3b30af25e93665f5aa21897910a65d7f26bbd066))
+* ignore global prefix if --prefix is used ([#5291](https://github.com/forking-repos/cli/issues/5291)) ([daaf461](https://github.com/forking-repos/cli/commit/daaf4619c85ecf62346770735cfa8e2ddecbef8b))
+* **libnpmexec:** fix bug not install latest pkg ([#4929](https://github.com/forking-repos/cli/issues/4929)) ([fcc72dd](https://github.com/forking-repos/cli/commit/fcc72dd8791187f4b3d8705fb23c2744c83ef943))
+* **libnpmexec:** fix read mixed local/registry pkg ([4a46a27](https://github.com/forking-repos/cli/commit/4a46a27f2b968e2f8c1f4821508f93013738c482))
+* look up local command bins from local tree ([#5273](https://github.com/forking-repos/cli/issues/5273)) ([c992fd6](https://github.com/forking-repos/cli/commit/c992fd6757505974dc8e92a9e2886d2233e098eb))
+* only try to run global bin if the bin name exists ([#5253](https://github.com/forking-repos/cli/issues/5253)) ([95ae9f2](https://github.com/forking-repos/cli/commit/95ae9f2e2555ef592777399bf8fee5206d77f41d))
+* properly find and run global scoped packages ([#5250](https://github.com/forking-repos/cli/issues/5250)) ([19a8346](https://github.com/forking-repos/cli/commit/19a834610d154f36748536b27aed13bfdb5ee748))
+* properly find locally/globally/npxCache packages ([ea44995](https://github.com/forking-repos/cli/commit/ea449954844f21abbf984e09e421f0e03485a535))
+* update readme badges ([#4658](https://github.com/forking-repos/cli/issues/4658)) ([2829cb2](https://github.com/forking-repos/cli/commit/2829cb28a432b5ff7beeeb3bf3e7e2e174c1121d))
+* use binPaths ([19f1497](https://github.com/forking-repos/cli/commit/19f1497322411f1566885bd53e63dc39f0df27ea))
+
+
+### Dependencies
+
+* @npmcli/run-script@4.1.0 ([2c06cee](https://github.com/forking-repos/cli/commit/2c06ceee82dd813c0ae84cc0b09e6941cfc5533e))
+* @npmcli/run-script@4.1.3 ([#5064](https://github.com/forking-repos/cli/issues/5064)) ([f59a114](https://github.com/forking-repos/cli/commit/f59a114ffe3d1f86ccb2e52a4432292ab76852cc))
+* @npmcli/run-script@4.2.0 ([d0be9a2](https://github.com/forking-repos/cli/commit/d0be9a2bb53e74b30e13751afd1f6924990c8422))
+* @npmcli/template-oss@3.2.1 ([aac01b8](https://github.com/forking-repos/cli/commit/aac01b89caf6336a2eb34d696296303cdadd5c08))
+* @npmcli/template-oss@3.2.2 ([#4639](https://github.com/forking-repos/cli/issues/4639)) ([a59fd2c](https://github.com/forking-repos/cli/commit/a59fd2cb863245fce56f96c90ac854e62c5c4d6f))
+* add @npmcli/fs@2.1.1 ([c18dbc4](https://github.com/forking-repos/cli/commit/c18dbc4393491e02532d698351747307848d2e20))
+* add semver@7.3.7 ([cd6bafd](https://github.com/forking-repos/cli/commit/cd6bafdfbbd7a054709c11850b58f7dbc26eb8da))
+* cacache@16.0.1 ([f95396a](https://github.com/forking-repos/cli/commit/f95396a033b75e2a3e9aa83f0b06c527641027a4))
+* libnpmexec@4.0.10 ([8d870c5](https://github.com/forking-repos/cli/commit/8d870c56eed20f352695c3c06be07a656ada4ba7))
+* libnpmexec@4.0.3 ([df92e23](https://github.com/forking-repos/cli/commit/df92e23af63ca07bb4c261abd7365530529d3fd2))
+* libnpmexec@4.0.5 ([b1b6948](https://github.com/forking-repos/cli/commit/b1b69487637ce99192dc930257eebae9eed4fe7f))
+* libnpmexec@4.0.6 ([0886f7f](https://github.com/forking-repos/cli/commit/0886f7fa5ac641137052782698407ada230c611c))
+* libnpmexec@4.0.7 ([14a08d6](https://github.com/forking-repos/cli/commit/14a08d6ceb57130a2e4bdbad74ebf4944c92890e))
+* libnpmexec@4.0.8 ([9f94049](https://github.com/forking-repos/cli/commit/9f94049f058687b916da726ea625b5fa68d0829d))
+* libnpmexec@4.0.9 ([4b7b48b](https://github.com/forking-repos/cli/commit/4b7b48befdca90e0114f4c64eac1d96fea1cc191))
+* npm-package-arg@9.0.1 ([9555a5f](https://github.com/forking-repos/cli/commit/9555a5f1d135aa1b8f7374273403efe41e99ee26))
+* npmlog@6.0.2 ([5e31322](https://github.com/forking-repos/cli/commit/5e313223100db1207818d756b081eaba3468b273))
+* pacote@13.0.4 ([6d31450](https://github.com/forking-repos/cli/commit/6d3145014861b4198c16d7772d809fd037ece289))
+* pacote@13.0.5 ([340fa51](https://github.com/forking-repos/cli/commit/340fa51f423a518a96c8015a67d8f6144a2e8051))
+* pacote@13.6.1 ([2e50cb8](https://github.com/forking-repos/cli/commit/2e50cb83e84cf25fee93ba0ca5a0343fbdb33c41))
+
 ## [4.0.10](https://github.com/npm/cli/compare/libnpmexec-v4.0.9...libnpmexec-v4.0.10) (2022-08-10)
 
 
